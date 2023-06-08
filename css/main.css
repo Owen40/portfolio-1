@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #001514;
+    color: #fbfffe;
+}
+
+.intro {
+    color: #F2CB00;
+}
+
+/* body {
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+} */
+
+nav {
+    position: fixed;
+}
+
+.navbar-left {
+    margin-left: 15px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-right li {
+    margin: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fbfffe;
+}
+
+.navbar-right li:hover {
+    border-bottom: 2px solid #F2CB00;
+}
+
+.navbar-right a:hover {
+    color: #F2CB00;
+    margin-bottom: 7px;
+}
+
+.content {
+    line-height: 25px;
+}
+
+.bars {
+    margin: 30px;
+}
+
+.bars-title {
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+#home {
+    height: 400px;
+    width: 500px;
+}
+
+#home img {
+    height: 300px;
+}
+
+.h3-span {
+    color: #F2CB00;
+    font-family: 'Alkatra', cursive;
+}
+
+.title-text {
+    color: #F2CB00;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.context {
+    padding: 30px;
+}
+
+.background-text {
+    position: absolute;
+    color: #000;
+  }
+  
+  .foreground-text {
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  }
+  
+/* .progress-bar {
+    background-color: #247ba0;
+} */
+
+.card {
+    background: inherit;
+    border: 2px solid #fbfffe;
+}
+
+.mb-3 label {
+    color: #F2CB00;
+}
+
+.message {
+    width: 90%;
+    border-radius: 40px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: #F2CB00;
+}
+
+.content-contact {
+    margin-top: 30px;
+}
+
+.contact-text ul {
+    list-style: none;
+}
+
+.social-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.cont {
+    display: flex;
+}
+
+.cont-text {
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #F2CB00;
+}
+
+.icons i {
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: #F2CB00;
+    margin: 20px;
+    color: #001514;
+}
+
+.proj-cards {
+    padding: 15px;
+    margin: 45px;
+}
+
+.social-links i {
+    font-size: 30px;
+    /* color: #F2CB00; */
+    margin-left: 20px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-with: 600px) {
+    .bars-title {
+        margin-left: 5px;
+    }
+    .column {
+        width: 100%;
+    }
+    #home {
+        padding: 25px;
+    }
+}
